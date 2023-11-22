@@ -3,7 +3,8 @@
 ### Folow instructions below to complete installation
 
 * For linux user:
-'''
+
+```
 cd ~/.config
 git clone 
-'''
+```
