@@ -2,6 +2,7 @@
 <br />
 Folow instructions below to complete installation
 <br />
+
 ```
 cd ~/.config
 git clone https://github.com/pdat24/Neovim-Config.git
