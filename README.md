@@ -1,8 +1,8 @@
 # Neovim-Config
-## This is folder nvim
-### Folow instructions below to complete installation
-
+<br />
+Folow instructions below to complete installation
 ```
 cd ~/.config
 git clone https://github.com/pdat24/Neovim-Config.git
 ```
+After that you can use neovim with amazing interface:v
