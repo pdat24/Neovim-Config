@@ -1,6 +1,7 @@
 # Neovim-Config
 <br />
-Folow instructions below to complete installation
+* Folow instructions below to complete installation
+<br />
 <br />
 
 ```
