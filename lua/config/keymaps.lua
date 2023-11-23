@@ -56,7 +56,7 @@ keymap.set("n", "<leader>r", function()
 end)
 
 -- Neotree
-keymap.set("n", "<C-n>", ":Neotree<CR>")
+-- keymap.set("n", "<C-n>", ":Neotree<CR>")
 
 -- comment
 -- keymap.set({ "n", "i" }, "<C-/>", "gcc", opts)

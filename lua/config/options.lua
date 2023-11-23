@@ -6,6 +6,8 @@ vim.opt.fileencoding = "utf-8"
 
 vim.opt.number = true
 
+vim.o.showtabline = 2
+vim.opt.sessionoptions = "curdir,folds,globals,help,tabpages,terminal,winsize"
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true

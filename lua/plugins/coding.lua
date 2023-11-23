@@ -14,6 +14,11 @@ return {
 		opts = { snippet_engine = "luasnip" },
 	},
 
+	-- multiple selection
+	{
+		"mg979/vim-visual-multi",
+	},
+
 	-- Incremental rename
 	{
 		"smjonas/inc-rename.nvim",

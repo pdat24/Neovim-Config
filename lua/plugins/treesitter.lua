@@ -20,7 +20,6 @@ return {
 				"python",
 				"javascript",
 				"typescript",
-				"fish",
 			},
 
 			-- matchup = {
