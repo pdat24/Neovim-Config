@@ -77,6 +77,9 @@ return {
 		event = "VeryLazy",
 		config = function()
 			require("transparent").setup({
+				groups = {
+					"Normal",
+				},
 				extra_groups = {
 					"NeoTreeNormalNC",
 					"NeoTreeNormal",
