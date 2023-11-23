@@ -56,11 +56,10 @@ keymap.set("n", "<leader>r", function()
 end)
 
 -- Neotree
-keymap.set("n", "<s-n>", ":Neotree toggle<CR>")
 keymap.set("n", "<C-n>", ":Neotree<CR>")
 
 -- comment
 -- keymap.set({ "n", "i" }, "<C-/>", "gcc", opts)
 
 -- terminal
--- keymap.set({ "n", "i" }, "<C-Enter>", ":ToggleTerm<CR>")
+keymap.set("n", "<Leader>t", ":ToggleTerm<CR>")
