@@ -55,11 +55,5 @@ keymap.set("n", "<leader>r", function()
 	require("craftzdog.utils").replaceHexWithHSL()
 end)
 
--- Neotree
--- keymap.set("n", "<C-n>", ":Neotree<CR>")
-
--- comment
--- keymap.set({ "n", "i" }, "<C-/>", "gcc", opts)
-
 -- terminal
 keymap.set("n", "<Leader>t", ":ToggleTerm<CR>")

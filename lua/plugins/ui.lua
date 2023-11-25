@@ -105,9 +105,10 @@ return {
 		opts = {
 			options = {
 				mode = "tabs",
-				-- separator_style = "slant",
-				show_buffer_close_icons = false,
+				separator_style = "slant",
+				show_buffer_close_icons = true,
 				show_close_icon = false,
+				diagnostics = "nvim_lsp",
 			},
 		},
 	},
@@ -121,6 +122,17 @@ return {
 				-- globalstatus = false,
 				theme = "dracula",
 				icon_enable = true,
+				-- component_separators = "|",
+				-- section_separators = { left = "", right = "" },
+			},
+			sections = {
+				lualine_x = { "encoding", "fileformat", "filetype" },
+				-- lualine_a = {
+				-- 	{ "mode", separator = { left = "" }, right_padding = 2 },
+				-- },
+				-- lualine_z = {
+				-- 	{ "location", separator = { right = "" }, left_padding = 2 },
+				-- },
 			},
 		},
 	},
